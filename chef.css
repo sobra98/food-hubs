@@ -15,9 +15,13 @@ p {
 /********** section are ***********/
 .top-banner {
   background-image: url("images/top-bg.jpeg");
-  height: 500px;
+  height: 600px;
   background-repeat: no-repeat;
   margin-bottom: 100px;
+  text-align: center;
+}
+.h1-padding {
+  padding-top: 80px;
 }
 
 .big-content h1 {
@@ -27,6 +31,17 @@ p {
 }
 .big-content h3 {
   color: white;
+}
+#p-white {
+  color: white;
+  margin-bottom: 100px;
+}
+.big-content a {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ff0066 0%, #ff66ff 100%);
+  color: white;
+  padding: 10px 20px;
+  font-weight: 800;
 }
 
 /**** end section area ***/
@@ -41,12 +56,20 @@ p {
   margin-bottom: 100px;
   display: inline-block;
 }
+.half-w a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 800;
+  background-image: linear-gradient(65deg, #ff0066 0%, #ff66ff 100%);
+}
 .half-w img {
   height: 300px;
 }
 .half-w p {
   color: black;
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 .half-w h1 {
   font-size: 50px;
@@ -59,10 +82,16 @@ p {
 /**** start food menu  *******/
 .food-service {
   text-align: center;
+  margin-bottom: 50px;
+}
+.food-service::after {
+  content: "";
+  clear: both;
+  display: block;
 }
 .food-menu {
   width: 32%;
-  width: 400px;
+
   float: left;
   margin-left: 1.33%;
   padding-left: 1%;
@@ -75,3 +104,12 @@ p {
 }
 
 /**** end food menu  *******/
+
+/**** Footer   *******/
+.footer {
+  background-color: black;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+}
+/**** Footer *******/
